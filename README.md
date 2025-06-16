@@ -1,6 +1,5 @@
 # 💻 DevByHimani - Developer Portfolio
 
-![Banner](./assets/portfolio-preview.png)
 
 A clean, responsive, and customizable **React.js Developer Portfolio** to showcase your work, experience, projects, and achievements. Built using the [DeveloperFolio](https://github.com/saadpasta/developerFolio) template and personalized by **Himani Zambare**.
 
