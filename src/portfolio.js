@@ -135,7 +135,7 @@ const educationInfo = {
       logo: require("./assets/images/vitbhopal.png"), // Make sure this image exists in your project
       subHeader: "Bachelor of Technology in Computer Science and Engineering",
       duration: "September 2022 – May 2026",
-      desc: "Currently pursuing B.Tech in Computer Science with a CGPA of 8.9 (as of 6th semester).",
+      desc: "Currently pursuing B.Tech in Computer Science with a CGPA of 8.9.",
       descBullets: [
         "Presented a research paper titled 'Designing A VPN Using Open Network Infrastructure With Enhanced Security And Performance' at the International Conference on Engineering & Technology (ICET-24), Chandigarh.",
         "The paper proposed a VPN design with enhanced encryption, multi-factor authentication, and IDS/IPS using WireGuard, HMAC, IPv4/IPv6, and UDP protocols.",
@@ -206,6 +206,17 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/NoteForge.png"), // Make sure this image exists in the assets folder
+      projectName: "NoteForge.ai",
+      projectDesc: "NoteForge.ai is an AI-powered note-taking app that helps users capture, organize, and enhance their thoughts with smart suggestions. Built using Next.js, Clerk, Convex, and Google AI, it offers a seamless and secure productivity experience.",
+      footerLink: [
+        {
+          name: "View Project on GitHub",
+          url: "https://github.com/Himanizambare/NoteForge.ai-main"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/number-plate-recognition.png"), // Add this image to src/assets/images/
       projectName: "Number Plate Recognition",
       projectDesc: "A computer vision project using OpenCV and Python to detect and extract vehicle number plates from images. It includes preprocessing, edge detection, contour filtering, and OCR for accurate recognition.",
@@ -228,17 +239,19 @@ const bigProjects = {
         }
       ]
     },
+
     {
-      image: require("./assets/images/News-Info.png"), // Make sure this image exists in the assets folder
-      projectName: "News Info Website",
-      projectDesc: "A dynamic news web app that fetches real-time headlines using the NewsAPI. Built with HTML, CSS, and JavaScript. Includes category-based filtering and responsive design, deployed on GitHub Pages.",
+      image: require("./assets/images/virtualStock.png"), // Make sure this image exists in the assets folder
+      projectName: "Virtual-Stock-Trading-Platform",
+      projectDesc: "his application lets users virtually invest money in the stock market using real-time stock prices. Users can track their investments, monitor their balance, and manage their stock portfolio.",
       footerLink: [
         {
           name: "View Project on GitHub",
-          url: "https://github.com/Himanizambare/news-info-website"
+          url: "https://github.com/Himanizambare/Virtual-Stock-Trading-Platform"
         }
       ]
-    }
+    },
+    
 
 
 
@@ -332,6 +345,19 @@ const achievementSection = {
         {
           name: "Conference Details",
           url: "https://ijercse.com/designing-a-vpn-using-open-network.php" // Replace with actual event URL if available
+        }
+      ]
+    },
+    {
+      title: "Devops, Agile & Design Thinking",
+      subtitle:
+        "Successfully completed and received a passing grade in the Devops, Agile & Design Thinking course by IBM Career Education Program, powered by IBM Developer Skills Network.",
+      image: require("./assets/images/IBM.webp"), // Replace with your own logo if available
+      imageAlt: "IBM Blockchain Developer Certificate",
+      footerLink: [
+        {
+          name: "Certification",
+          url: " https://courses.ibmcep.cognitiveclass.ai/certificates/472c47aa770e49e4b37ebe0815a568d1"
         }
       ]
     }
