@@ -26,7 +26,7 @@ const greeting = {
     "A creative developer who loves building sleek web apps 🛠️, solving problems with code, and constantly learning new tech like AI & ML 🤖."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OYoUUiEBAgv5BU6FTP6BFxuKqK1QF8e-/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Mrp7WiWab--4WuZN7FI-QVj8C69QHaVq/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
